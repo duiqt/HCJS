@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class</title>
+
+    <link rel="stylesheet" href="css/d03_css.css">
+
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div p {
+            display: none;
+            padding: 20px;
+        }
+
+        p img {
+            border: solid rgb(76, 148, 148);
+            padding: -1rem;
+        }
+
+        div:hover p {
+            display: block;
+        }
+
+        p:first-child {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body style="background-color: lightskyblue;">
+
+    <h2>Pseudo class Demo</h2>
+    <hr>
+
+    <p>
+        <a href="d03_link_css.html">home style</a>
+        <a href="d03_text_css.html">text style</a>
+        <a href="d03_pseudo_class.html">pseudo-class</a>
+        <a href="d03_pseudo_class2.html">pseudo-class-2</a>
+        <a href="d03_indent_css.html">indent style</a>
+        <a href="d03_border_css.html">border style</a>
+    </p>
+
+    <div>Hover bellow this div element to show the p element
+        <p> Hi, bae! <br><br>
+            <img src="ree.jpg" alt="cooming">
+        </p>
+        <p>
+            I'm Cooming
+        </p>
+    </div>
+</body>
+
+</html>
